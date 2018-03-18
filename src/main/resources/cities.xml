@@ -1,0 +1,172 @@
+<cities>
+<city index = "101" city = "г. Москва"/>
+<city index = "103" city = "г. Москва"/>
+<city index = "105" city = "г. Москва"/>
+<city index = "107" city = "г. Москва"/>
+<city index = "109" city = "г. Москва"/>
+<city index = "111" city = "г. Москва"/>
+<city index = "115" city = "г. Москва"/>
+<city index = "117" city = "г. Москва"/>
+<city index = "119" city = "г. Москва"/>
+<city index = "121" city = "г. Москва"/>
+<city index = "123" city = "г. Москва"/>
+<city index = "124" city = "г. Москва"/>
+<city index = "125" city = "г. Москва"/>
+<city index = "127" city = "г. Москва"/>
+<city index = "129" city = "г. Москва"/>
+<city index = "141" city = "г. Москва"/>
+<city index = "143" city = "г. Москва"/>
+<city index = "194" city = "г. Санкт-Петербург"/>
+<city index = "189" city = "г. Санкт-Петербург"/>
+<city index = "197" city = "г. Санкт-Петербург"/>
+<city index = "198" city = "г. Санкт-Петербург"/>
+<city index = "196" city = "г. Санкт-Петербург"/>
+<city index = "630" region = "Новосибирская область" city = "г. Новосибирск"/>
+<city index = "620" region = "Свердловская область" city = "г. Екатеринбург"/>
+<city index = "603" region = "Нижегородская область" city = "г. Нижний Новгород"/>
+<city index = "420" region = "Республика Татарстан" city = "г. Казань"/>
+<city index = "454" region = "Челябинская область" city = "г. Челябинск"/>
+<city index = "644" region = "Омская область" city = "г. Омск"/>
+<city index = "443" region = "Самарская область" city = "г. Самара"/>
+<city index = "344" region = "Ростовская область" city = "г. Ростов-на-Дону"/>
+<city index = "450" region = "Республика Башкортостан" city = "г. Уфа"/>
+<city index = "647" region = "Красноярский край" city = "г. Красноярск"/>
+<city index = "614" region = "Пермский край" city = "г. Пермь"/>
+<city index = "394" region = "Воронежская область" city = "г. Воронеж"/>
+<city index = "400" region = "Волгоградская область" city = "г. Волгоград"/>
+<city index = "350" region = "Краснодарский край" city = "г. Краснодар"/>
+<city index = "410" region = "Саратовская область" city = "г. Саратов"/>
+<city index = "625" region = "Тюменская область" city = "г. Тюмень"/>
+<city index = "443" region = "Самарская область" city = "г. Тольятти"/>
+<city index = "426" region = "Удмуртская Республика" city = "г. Ижевск"/>
+<city index = "656" region = "Алтайский край" city = "г. Барнаул"/>
+<city index = "432" region = "Ульяновская область" city = "г. Ульяновск"/>
+<city index = "664" region = "Иркутская область" city = "г. Иркутск"/>
+<city index = "680" region = "Хабаровский край" city = "г. Хабаровск"/>
+<city index = "150" region = "Ярославская область" city = "г. Ярославль"/>
+<city index = "690" region = "Приморский край" city = "г. Владивосток"/>
+<city index = "367" region = "Республика Дагестан" city = "г. Махачкала"/>
+<city index = "634" region = "Томская область" city = "г. Томск"/>
+<city index = "460" region = "Оренбургская область" city = "г. Оренбург"/>
+<city index = "650" region = "Кемеровская область" city = "г. Кемерово"/>
+<city index = "650" region = "Кемеровская область" city = "г. Новокузнецк"/>
+<city index = "390" region = "Рязанская область" city = "г. Рязань"/>
+<city index = "414" region = "Астраханская область" city = "г. Астрахань"/>
+<city index = "420" region = "Республика Татарстан" city = "г. Набережные Челны"/>
+<city index = "440" region = "Пензенская область" city = "г. Пенза"/>
+<city index = "398" region = "Липецкая область" city = "г. Липецк"/>
+<city index = "610" region = "Кировская область" city = "г. Киров"/>
+<city index = "428" region = "Чувашская Республика" city = "г. Чебоксары"/>
+<city index = "300" region = "Тульская область" city = "г. Тула"/>
+<city index = "236" region = "Калининградская область" city = "г. Калининград"/>
+<city index = "140" region = "Московская область" city = "г. Балашиха"/>
+<city index = "305" region = "Курская область" city = "г. Курск"/>
+<city index = "355" region = "Ставропольский край" city = "г. Ставрополь"/>
+<city index = "670" region = "Республика Бурятия" city = "г. Улан - Удэ"/>
+<city index = "299" city = "г. Севастополь"/>
+<city index = "170" region = "Тверская область" city = "г. Тверь"/>
+<city index = "454" region = "Челябинская область" city = "г. Магнитогорск"/>
+<city index = "350" region = "Краснодарский край" city = "г. Сочи"/>
+<city index = "153" region = "Ивановская область" city = "г. Иваново"/>
+<city index = "241" region = "Брянская область" city = "г. Брянск"/>
+<city index = "308" region = "Белгородская область" city = "г. Белгород"/>
+<city index = "677" region = "Ханты-Мансийский АО" city = "г. Сургут"/>
+<city index = "600" region = "Владимирская область" city = "г. Владимир"/>
+<city index = "620" region = "Свердловская область" city = "г. Нижний Тагил"/>
+<city index = "163" region = "Архангельская область" city = "г. Архангельск"/>
+<city index = "672" region = "Забайкальский край" city = "г. Чита"/>
+<city index = "248" region = "Калужская область" city = "г. Калуга"/>
+<city index = "298" region = "Республика Крым" city = "г. Симферополь"/>
+<city index = "214" region = "Смоленская область" city = "г. Смоленск"/>
+<city index = "400" region = "Волгоградская область" city = "г. Волжский"/>
+<city index = "640" region = "Курганская область" city = "г. Курган"/>
+<city index = "160" region = "Вологодская область" city = "г. Череповец"/>
+<city index = "302" region = "Орловская область" city = "г. Орёл"/>
+<city index = "430" region = "Республика Мордовия" city = "г. Саранск"/>
+<city index = "160" region = "Вологодская область" city = "г. Вологда"/>
+<city index = "677" region = "Республика Саха (Якутия)" city = "г. Якутск"/>
+<city index = "362" region = "Республика Северная Осетия-Алания" city = "г. Владикавказ"/>
+<city index = "140" region = "Московская область" city = "г. Подольск"/>
+<city index = "183" region = "Мурманская область" city = "г. Мурманск"/>
+<city index = "364" region = "Чеченская Республика" city = "г. Грозный"/>
+<city index = "392" region = "Тамбовская область" city = "г. Тамбов"/>
+<city index = "450" region = "Республика Башкортостан" city = "г. Стерлитамак"/>
+<city index = "185" region = "Республика Карелия" city = "г. Петрозаводск"/>
+<city index = "156" region = "Костромская область" city = "г. Кострома"/>
+<city index = "424" region = "Ханты-Мансийский АО" city = "г. Нижневартовск"/>
+<city index = "350" region = "Краснодарский край" city = "г. Новороссийск"/>
+<city index = "424" region = "Республика Марий Эл" city = "г. Йошкар-Ола"/>
+<city index = "344" region = "Ростовская область" city = "г. Таганрог"/>
+<city index = "680" region = "Хабаровский край" city = "г. Комсомольск-на-Амуре"/>
+<city index = "140" region = "Московская область" city = "г. Химки"/>
+<city index = "167" region = "Республика Коми" city = "г. Сыктывкар"/>
+<city index = "360" region = "Кабардино-Балкарская Республика" city = "г. Нальчик"/>
+<city index = "420" region = "Республика Татарстан" city = "г. Нижнекамск"/>
+<city index = "344" region = "Ростовская область" city = "г. Шахты"/>
+<city index = "603" region = "Нижегородская область" city = "г. Дзержинск"/>
+<city index = "664" region = "Иркутская область" city = "г. Братск"/>
+<city index = "460" region = "Оренбургская область" city = "г. Орск"/>
+<city index = "664" region = "Иркутская область" city = "г. Ангарск"/>
+<city index = "410" region = "Саратовская область" city = "г. Энгельс"/>
+<city index = "675" region = "Амурская область" city = "г. Благовещенск"/>
+<city index = "308" region = "Белгородская область" city = "г. Старый Оскол"/>
+<city index = "173" region = "Новгородская область" city = "г. Великий Новгород"/>
+<city index = "140" region = "Московская область" city = "г. Королёв"/>
+<city index = "180" region = "Псковская область" city = "г. Псков"/>
+<city index = "140" region = "Московская область" city = "г. Мытищи"/>
+<city index = "656" region = "Алтайский край" city = "г. Бийск"/>
+<city index = "140" region = "Московская область" city = "г. Люберцы"/>
+<city index = "650" region = "Кемеровская область" city = "г. Прокопьевск"/>
+<city index = "693" region = "Сахалинская область" city = "г. Южно-Сахалинск"/>
+<city index = "410" region = "Саратовская область" city = "г. Балаково"/>
+<city index = "350" region = "Краснодарский край" city = "г. Армавир"/>
+<city index = "150" region = "Ярославская область" city = "г. Рыбинск"/>
+<city index = "163" region = "Архангельская область" city = "г. Северодвинск"/>
+<city index = "655" region = "Республика Хакасия" city = "г. Абакан"/>
+<city index = "683" region = "Камчатский край" city = "г. Петропавловск-Камчатский"/>
+<city index = "647" region = "Красноярский край" city = "г. Норильск"/>
+<city index = "443" region = "Самарская область" city = "г. Сызрань"/>
+<city index = "344" region = "Ростовская область" city = "г. Волгодонск"/>
+<city index = "690" region = "Приморский край" city = "г. Уссурийск"/>
+<city index = "620" region = "Свердловская область" city = "г. Каменск - Уральский"/>
+<city index = "344" region = "Ростовская область" city = "г. Новочеркасск"/>
+<city index = "454" region = "Челябинская область" city = "г. Златоуст"/>
+<city index = "140" region = "Московская область" city = "г. Электросталь"/>
+<city index = "420" region = "Республика Татарстан" city = "г. Альметьевск"/>
+<city index = "140" region = "Московская область" city = "г. Красногорск"/>
+<city index = "450" region = "Республика Башкортостан" city = "г. Салават"/>
+<city index = "454" region = "Челябинская область" city = "г. Миасс"/>
+<city index = "690" region = "Приморский край" city = "г. Находка"/>
+<city index = "298" region = "Республика Крым" city = "г. Керчь"/>
+<city index = "454" region = "Челябинская область" city = "г. Копейск"/>
+<city index = "355" region = "Ставропольский край" city = "г. Пятигорск"/>
+<city index = "656" region = "Алтайский край" city = "г. Рубцовск"/>
+<city index = "614" region = "Пермский край" city = "г. Березники"/>
+<city index = "140" region = "Московская область" city = "г. Коломна"/>
+<city index = "385" region = "Республика Адыгея" city = "г. Майкоп"/>
+<city index = "140" region = "Московская область" city = "г. Одинцово"/>
+<city index = "367" region = "Республика Дагестан" city = "г. Хасавюрт"/>
+<city index = "600" region = "Владимирская область" city = "г. Ковров"/>
+<city index = "355" region = "Ставропольский край" city = "г. Кисловодск"/>
+<city index = "450" region = "Республика Башкортостан" city = "г. Нефтекамск"/>
+<city index = "689" region = "Ханты-Мансийский АО" city = "г. Нефтеюганск"/>
+<city index = "428" region = "Чувашская Республика" city = "г. Новочебоксарск"/>
+<city index = "140" region = "Московская область" city = "г. Серпухов"/>
+<city index = "140" region = "Московская область" city = "г. Щёлково"/>
+<city index = "300" region = "Тульская область" city = "г. Новомосковск"/>
+<city index = "344" region = "Ростовская область" city = "г. Батайск"/>
+<city index = "620" region = "Свердловская область" city = "г. Первоуральск"/>
+<city index = "140" region = "Московская область" city = "г. Домодедово"/>
+<city index = "367" region = "Республика Дагестан" city = "г. Дербент"/>
+<city index = "369" region = "Карачаево-Черкесская Республика" city = "г. Черкесск"/>
+<city index = "140" region = "Московская область" city = "г. Орехово-Зуево"/>
+<city index = "355" region = "Ставропольский край" city = "г. Невинномысск"/>
+<city index = "432" region = "Ульяновская область" city = "г. Димитровград"/>
+<city index = "386" region = "Республика Ингушетия" city = "г. Назрань"/>
+<city index = "667" region = "Республика Тыва" city = "г. Кызыл"/>
+<city index = "450" region = "Республика Башкортостан" city = "г. Октябрьский"/>
+<city index = "248" region = "Калужская область" city = "г. Обнинск"/>
+<city index = "367" region = "Республика Дагестан" city = "г. Каспийск"/>
+<city index = "690" region = "Ямало-Ненецкий АО" city = "г. Новый Уренгой"/>
+<city index = "140" region = "Московская область" city = "г. Раменское"/>
+</cities>
