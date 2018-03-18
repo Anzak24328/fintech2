@@ -1,4 +1,4 @@
-package ru.tinkoff.fintech2.processing;
+package ru.tinkoff.fintech2.utils;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

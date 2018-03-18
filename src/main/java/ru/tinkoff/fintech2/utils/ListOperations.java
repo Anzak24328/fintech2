@@ -1,8 +1,8 @@
-package ru.tinkoff.fintech2.processing;
+package ru.tinkoff.fintech2.utils;
 
-import ru.tinkoff.fintech2.jaxb.Gender;
+import ru.tinkoff.fintech2.jaxb.enums.Gender;
 import ru.tinkoff.fintech2.jaxb.Name;
-import ru.tinkoff.fintech2.jaxb.NameType;
+import ru.tinkoff.fintech2.jaxb.enums.NameType;
 import ru.tinkoff.fintech2.jaxb.Names;
 
 import java.util.ArrayList;

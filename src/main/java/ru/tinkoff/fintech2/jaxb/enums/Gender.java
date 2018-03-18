@@ -1,4 +1,4 @@
-package ru.tinkoff.fintech2.jaxb;
+package ru.tinkoff.fintech2.jaxb.enums;
 
 import javax.xml.bind.annotation.XmlEnumValue;
 

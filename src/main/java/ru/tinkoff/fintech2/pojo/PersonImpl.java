@@ -1,19 +1,23 @@
 package ru.tinkoff.fintech2.pojo;
 
 import ru.tinkoff.fintech2.jaxb.*;
-import ru.tinkoff.fintech2.processing.ListOperations;
-import ru.tinkoff.fintech2.processing.XmlParser;
+import ru.tinkoff.fintech2.jaxb.enums.Gender;
+import ru.tinkoff.fintech2.jaxb.enums.NameType;
+import ru.tinkoff.fintech2.utils.ListOperations;
+import ru.tinkoff.fintech2.utils.XmlParser;
 import ru.tinkoff.fintech2.utils.Random;
+import ru.tinkoff.fintech2.utils.Utils;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class PersonImpl {
 
     private Person getRandomPerson(){
-        Names names = new XmlParser().getList(getPath("namelist.xml"), Names.class);
-        Cities cities = new XmlParser().getList(getPath("cities.xml"), Cities.class);
-        Streets streets = new XmlParser().getList(getPath("streets.xml"), Streets.class);
+        Names names = new XmlParser().getList(new Utils().getPath("namelist.xml"), Names.class);
+        Cities cities = new XmlParser().getList(new Utils().getPath("cities.xml"), Cities.class);
+        Streets streets = new XmlParser().getList(new Utils().getPath("streets.xml"), Streets.class);
         Gender gender = Random.getGender();
         LocalDate birthDate = Random.getBirthDate();
         String genStr = "М";
@@ -27,15 +31,19 @@ public class PersonImpl {
                 genStr,
                 birthDate,
                 Random.getRowFromList(cities.getCities()).getCity(),
-                city.getIndex() +String.format("%06d",  Random.getInt(0,999)),
+                city.getIndex() +String.format("%03d",  Random.getInt(0,999)),
                 city.getRegion(),
                 city.getCity(),
                 Random.getRowFromList(streets.getStreets()),
                 Random.getInt(1,100),
-                Random.getInt(1,1000));
+                Random.getInt(1,150));
     }
 
     public List<Person> getListOfRandomPerson(){
-        
+        ArrayList<Person> list = new ArrayList<>();
+          for (int i = 0; i< Random.getInt(1,30); i++){
+            list.add(getRandomPerson());
+        }
+        return list;
     }
 }

@@ -1,5 +1,8 @@
 package ru.tinkoff.fintech2.jaxb;
 
+import ru.tinkoff.fintech2.jaxb.enums.Gender;
+import ru.tinkoff.fintech2.jaxb.enums.NameType;
+
 import javax.xml.bind.annotation.*;
 
 @XmlRootElement(name = "name")

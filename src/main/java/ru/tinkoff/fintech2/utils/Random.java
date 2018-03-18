@@ -1,6 +1,6 @@
 package ru.tinkoff.fintech2.utils;
 
-import ru.tinkoff.fintech2.jaxb.Gender;
+import ru.tinkoff.fintech2.jaxb.enums.Gender;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ public class Random {
     }
 
     public static  <T> T getRowFromList(ArrayList<T> list) {
-        return list.get(getInt(1, list.size()));
+        return list.get(getInt(0, list.size()-1));
     }
 
     public static LocalDate getBirthDate(){
