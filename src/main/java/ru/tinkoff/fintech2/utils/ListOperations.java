@@ -13,7 +13,6 @@ public class ListOperations {
         ArrayList list = new ArrayList();
         for (Name name: names.getList()){
             if (name.getGender() == gender & name.getType() == nameType) list.add(name.getValue());
-
         }
         return list;
     }
