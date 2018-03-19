@@ -22,8 +22,12 @@ public class CreateDocument {
 
     public void createDocs(String path) throws IOException, DocumentException {
         List<Person> persons = new PersonImpl().getListOfRandomPerson();
-        createPDFDoc(path+ Random.getInt(100,999)+".pdf", persons);
-        createExcelDoc(path+ Random.getInt(100,999)+".xls", persons);
+        String xlsPath = path+ Random.getInt(100,999)+".xls";
+        String pdfPath = path+ Random.getInt(100,999)+".pdf";
+        System.out.println("Файл Excel создан. Путь: "+xlsPath);
+        System.out.println("Файл PDF создан. Путь: "+pdfPath);
+        createExcelDoc(pdfPath, persons);
+        createPDFDoc(xlsPath, persons);
     }
 
     private void createExcelDoc(String path, List<Person> persons) throws IOException {
