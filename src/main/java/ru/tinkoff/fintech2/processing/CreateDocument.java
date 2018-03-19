@@ -26,8 +26,8 @@ public class CreateDocument {
         String pdfPath = path+ Random.getInt(100,999)+".pdf";
         System.out.println("Файл Excel создан. Путь: "+xlsPath);
         System.out.println("Файл PDF создан. Путь: "+pdfPath);
-        createExcelDoc(pdfPath, persons);
-        createPDFDoc(xlsPath, persons);
+        createExcelDoc(xlsPath, persons);
+        createPDFDoc(pdfPath, persons);
     }
 
     private void createExcelDoc(String path, List<Person> persons) throws IOException {
