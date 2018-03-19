@@ -1,5 +1,6 @@
 package ru.tinkoff.fintech2.processing;
 
+import com.itextpdf.text.DocumentException;
 import ru.tinkoff.fintech2.utils.Random;
 
 import java.io.File;
@@ -9,8 +10,8 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            new CreateDocument().create(System.getProperty("user.dir")+ File.separator+ Random.getInt(100,999)+".xls");
-        } catch (IOException e) {
+            new CreateDocument().createDocs(System.getProperty("user.dir")+ File.separator);
+        } catch (IOException | DocumentException e) {
             e.printStackTrace();
         }
 
